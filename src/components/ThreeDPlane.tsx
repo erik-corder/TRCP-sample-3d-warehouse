@@ -22,7 +22,7 @@ const ThreeDPlane: FC<ThreeDPlaneProps> = ({}) => {
         <PerspectiveCamera makeDefault fov={50} position={[3, 2, 5]} />
         <PivotControls activeAxes={[true, true, true]}>
           <mesh position={[1, 1, 3]} >
-            <boxGeometry args={[2, 2, 2]} />
+            <boxGeometry args={[1, 1, 1]} />
             <meshStandardMaterial color="green" />
           </mesh>
         </PivotControls>
